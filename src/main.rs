@@ -80,7 +80,7 @@ fn print_args(cli:Cli) {
   println!("> \x1b[96mCONFIGURATION LOADED \x1b[0m");
   println!("> INITIAL FILE SIZE: \x1b[91m{} MB\x1b[0m", cli.initial_fsize);
   println!("> LAYER COUNT: \x1b[91m{} \x1b[0m", cli.layers);
-  println!("> EFFECTIVE FILE COUNT: \x1b[91m{}^{} \x1b[0m (calc it yourself you lazy ass)", cli.layers, cli.layers);
+  println!("> EFFECTIVE FILE COUNT: \x1b[91m{}^{} \x1b[0m", cli.layers, cli.layers);
   println!("> FILE NAME: \x1b[91m{}.zip \x1b[0m", cli.file_name);
   println!("---------------------------------------------");
 }
