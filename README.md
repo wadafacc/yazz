@@ -5,7 +5,7 @@ Zip Bomb Generator - For educational purposes only! ;)
 | Parameter         | Value Type     | Default Value |
 | ----------------- | -------------- | ------------- |
 | Initial File Size | Specified in MB| 10 MB         |
-| Layers            | Amnt of Layers | 4             |
+| Layers            | Amount of Layers | 4             |
 | File Name         | (without .zip) | YAZZ          |
 
 <i>(All are optional!)</i>
@@ -14,4 +14,4 @@ Zip Bomb Generator - For educational purposes only! ;)
 `yazz.exe 666 6 EXAMPLE`
 Will generate this: [EXAMPLE.zip](./EXAMPLE.zip)
 
-<i>This document is still under construction. please check back later or extend it yourself!</i>
+🚧<i>This document is still under construction. please check back later or extend it yourself!</i>🚧
