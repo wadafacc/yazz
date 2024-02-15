@@ -13,10 +13,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>>{
   
   // store args in struct
   let cli = Cli {
-    initial_fsize: args[0].parse::<f64>().ok().or(Some(10.0)).unwrap(),
-    layers: args[1].parse::<i32>().ok().or(Some(4)).unwrap(),
-    file_name: args[2].parse::<String>().ok().or(Some("YAZZ".to_string())).unwrap()
+    initial_fsize: args[1].parse::<f64>().ok().or(Some(10.0)).unwrap(),
+    layers: args[2].parse::<i32>().ok().or(Some(4)).unwrap(),
+    file_name: args[3].parse::<String>().ok().or(Some("YAZZ".to_string())).unwrap()
   };
+
   let full_name = format!("{}.zip",cli.file_name);
 
   let path = Path::new(&full_name);

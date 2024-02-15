@@ -11,7 +11,7 @@ Zip Bomb Generator - For educational purposes only! ;)
 <i>(All are optional!)</i>
 
 ### Example
-`yazz.exe -- 666 6 EXAMPLE`
+`yazz.exe 666 6 EXAMPLE`
 Will generate this: [EXAMPLE.zip](./EXAMPLE.zip)
 
 <i>This document is still under construction. please check back later or extend it yourself!</i>
