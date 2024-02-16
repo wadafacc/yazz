@@ -1,7 +1,12 @@
 # Yet Another Zip Zipper
 ## In a Nutshell
 Zip Bomb Generator - For educational purposes only! ;)
-## Parameters
+## Usage
+1. Download desired binary from Releases
+2. run the following command with your desired parameters
+3. `yazz.exe {} {} {}`
+4. enjoy!
+### Parameters
 | Parameter         | Value Type     | Default Value |
 | ----------------- | -------------- | ------------- |
 | Initial File Size | Specified in MB| 10 MB         |
